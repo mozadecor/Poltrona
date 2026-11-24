@@ -1,187 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MozaDecor - Promoção Imperdível</title>
-
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body{
-            background:#f5f2ec;
-            color:#333;
-            line-height:1.6;
-        }
-
-        .container{
-            max-width:1200px;
-            margin:auto;
-            padding:20px;
-        }
-
-        header{
-            text-align:center;
-            padding:30px 0;
-        }
-
-        header h1{
-            color:#b8860b;
-            font-size:2.5rem;
-            margin-bottom:10px;
-        }
-
-        .hero{
-            display:grid;
-            grid-template-columns:1fr 1fr;
-            gap:40px;
-            align-items:center;
-            margin-top:20px;
-        }
-
-        .hero img{
-            width:100%;
-            border-radius:15px;
-            box-shadow:0 5px 20px rgba(0,0,0,.15);
-        }
-
-        .promo-box{
-            background:#fff;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 5px 20px rgba(0,0,0,.1);
-        }
-
-        .promo-box h2{
-            color:#b8860b;
-            margin-bottom:20px;
-        }
-
-        .price{
-            font-size:1.4rem;
-            margin:15px 0;
-            font-weight:bold;
-        }
-
-        .highlight{
-            color:#b8860b;
-        }
-
-        .benefits{
-            margin-top:20px;
-        }
-
-        .benefits li{
-            margin:10px 0;
-            list-style:none;
-        }
-
-        .contact{
-            margin-top:30px;
-            background:#111;
-            color:#fff;
-            padding:25px;
-            border-radius:15px;
-            text-align:center;
-        }
-
-        .contact a{
-            color:#ffd700;
-            text-decoration:none;
-            font-size:1.4rem;
-            font-weight:bold;
-        }
-
-        footer{
-            text-align:center;
-            padding:25px;
-            margin-top:30px;
-            color:#666;
-        }
-
-        @media(max-width:768px){
-            .hero{
-                grid-template-columns:1fr;
-            }
-
-            header h1{
-                font-size:2rem;
-            }
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-
-    <header>
-        <h1>✨ PROMOÇÃO ✨</h1>
-        <p>Detalhes que fazem a diferença.</p>
-    </header>
-
-    <section class="hero">
-
-        <!-- COLOQUE SUA IMAGEM AQUI -->
-        <div>
-            <img src="poltrona.jpg.jpeg" alt="Poltrona MozaDecor">
-        </div>
-
-        <div class="promo-box">
-            <h2>Transforme o seu espaço</h2>
-
-            <p>
-                Elegância, conforto e sofisticação para valorizar o seu ambiente.
-            </p>
-
-            <div class="price">
-                🛋️ 1 Poltrona – <span class="highlight">15.000 MT</span>
-            </div>
-
-            <div class="price">
-                🎉 Leve 2 Poltronas por apenas
-                <span class="highlight">27.000 MT</span>
-            </div>
-
-            <div class="price">
-                🎁 Receba um Puff de Brinde!
-            </div>
-            <section class="cta">
-  <h2>⚠️ Produção limitada por semana</h2>
-  <p>Encomenda agora para garantir o teu lugar na produção.</p>
-
-  <a class="btn" href="https://wa.me/258849085301?text=Quero%20fazer%20uma%20encomenda%20agora">
-    GARANTIR MINHA ENCOMENDA
-
-            <ul class="benefits">
-                <li>✅ Disponível em todas as cores</li>
-                <li>✅ Diversos tipos de tecido</li>
-                <li>✅ Produção por encomenda</li>
-                <li>✅ Entrega em apenas 4 dias</li>
-                <li>✅ Transporte sob custo adicional</li>
-            </ul>
-        </div>
-
-    </section>
-
-    <div class="contact">
-        <h2>📞 Encomendas e Informações</h2>
-        <p>
-            <a href="tel:+258849085301">849085301</a>
-        </p>
-        <br>
-        <p>MozaDecor – Qualidade, conforto e sofisticação.</p>
-    </div>
-
-    <footer>
-        © 2026 MozaDecor - Detalhes que fazem a diferença.
-    </footer>
-
-</div>
-
-</body>
-</html>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#26382f"><title>Wedding Planner 2.0</title>
+<style>
+:root{--bg:#f4f6f2;--card:#fff;--ink:#24342b;--muted:#718078;--green:#315b45;--green2:#e8f1ea;--gold:#b58a4b;--line:#e2e8e1;--red:#b64b4b;--shadow:0 8px 26px #1c33240b}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{max-width:1280px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:12px}.logo{width:46px;height:46px;background:var(--green);color:#fff;border-radius:14px;display:grid;place-items:center;font-size:24px}.brand h1{margin:0;font-size:20px}.brand p{margin:1px 0;color:var(--muted);font-size:12px}.actions{display:flex;gap:7px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:9px 12px;border-radius:10px;font-weight:650}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.soft{background:var(--green2);color:var(--green);border-color:#d8e8dc}.btn.danger{color:var(--red)}.hero{background:linear-gradient(115deg,#233c30,#4c7358);color:#fff;padding:23px;border-radius:18px;display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:15px}.hero h2{font-size:23px;margin:0 0 3px}.hero p{margin:0;color:#dce8de}.hero .date{text-align:right;font-weight:750}.hero small{display:block;color:#dce8de;font-weight:400}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:14px}.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}.stat{padding:14px}.stat label{font-size:11px;color:var(--muted)}.stat strong{display:block;font-size:21px;letter-spacing:-.5px;margin:4px 0}.stat small{font-size:11px;color:var(--muted)}.green{color:var(--green)}.gold{color:var(--gold)}.red{color:var(--red)}.panel{padding:17px;margin-bottom:13px}.panelhead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.panel h3{font-size:15px;margin:0}.muted{color:var(--muted)}.tiny{font-size:11px}.tabs{display:flex;gap:5px;overflow:auto;padding:5px;background:#e8ede7;border-radius:12px;margin:15px 0}.tab{border:0;background:transparent;color:#5d6b62;font-weight:700;padding:10px 13px;border-radius:9px;white-space:nowrap}.tab.active{background:white;color:var(--green);box-shadow:0 2px 8px #0000000b}.view{display:none}.view.active{display:block}.grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:13px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.progress{height:10px;background:#e9eee9;border-radius:20px;overflow:hidden}.progress span{display:block;height:100%;background:#5c9872;width:0}.barrow{display:grid;grid-template-columns:110px 1fr 100px;align-items:center;gap:8px;margin:10px 0;font-size:12px}.bar{height:8px;background:#edf1ed;border-radius:20px;overflow:hidden}.bar i{display:block;height:100%;background:#6b9678}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);font-size:12px;vertical-align:middle}th{color:var(--muted);font-weight:700;background:#fafbf9}.tag{display:inline-block;padding:3px 8px;border-radius:30px;background:#edf3ee;color:var(--green);font-size:10px;font-weight:750}.tag.pending{background:#f7f0e4;color:#89652e}.tag.late{background:#faeaea;color:var(--red)}.rowactions{display:flex;gap:5px}.iconbtn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:4px 7px}.empty{text-align:center;padding:25px;color:var(--muted)}.formgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}.field{display:flex;flex-direction:column;gap:4px}.field.full{grid-column:1/-1}.field label{font-size:11px;color:var(--muted);font-weight:700}.field input,.field select,.field textarea{width:100%;border:1px solid #dce4dc;border-radius:9px;padding:9px;background:#fff;color:var(--ink)}.field textarea{min-height:70px;resize:vertical}.summary{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}.notice{background:#f7f1e7;border:1px solid #eee1ca;color:#765c31;border-radius:10px;padding:11px;font-size:12px}.goodnotice{background:#edf5ee;border:1px solid #dceadd;color:#315b45;border-radius:10px;padding:11px;font-size:12px}.modalback{position:fixed;inset:0;background:#14241dcc;display:none;align-items:center;justify-content:center;padding:14px;z-index:10}.modalback.show{display:flex}.modal{width:min(680px,100%);max-height:92vh;overflow:auto;background:white;border-radius:16px;padding:19px}.modal h3{margin:0 0 14px}.modalfoot{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}.checkline{display:flex;align-items:center;gap:8px}.checkline input{accent-color:var(--green)}.footer{text-align:center;padding:18px;color:var(--muted);font-size:11px}.hidden{display:none!important}.cloudstatus{font-size:11px;padding:5px 8px;border-radius:20px;background:#edf1ed;color:#617068}.cloudstatus.on{background:#e7f4e9;color:#28613b}
+@media(max-width:900px){.stats{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}}@media(max-width:620px){.app{padding:11px}.top{align-items:flex-start;flex-direction:column}.actions{width:100%}.actions .btn{flex:1}.hero{flex-direction:column;align-items:flex-start}.hero .date{text-align:left}.stats{grid-template-columns:repeat(2,1fr)}.stat strong{font-size:18px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.grid3{grid-template-columns:1fr 1fr}.barrow{grid-template-columns:85px 1fr 80px}}
+@media print{body{background:#fff}.app{padding:0}.actions,.tabs,.btn,.rowactions,.no-print{display:none!important}.view{display:none!important}#view-dashboard{display:block!important}.panel,.stat{box-shadow:none;break-inside:avoid}.hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style></head>
+<body><div class="app">
+<header class="top"><div class="brand"><div class="logo">♡</div><div><h1>Wedding Planner <span class="muted">2.0</span></h1><p>Gestão financeira e organização do casamento</p></div></div><div class="actions"><span id="cloudStatus" class="cloudstatus">Modo local</span><button class="btn" onclick="exportData()">⬇ Cópia</button><button class="btn" onclick="document.getElementById('importFile').click()">⬆ Importar</button><button class="btn primary" onclick="window.print()">Imprimir</button><input id="importFile" type="file" accept="application/json" hidden onchange="importData(event)"></div></header>
+<section class="hero"><div><h2 id="weddingTitle">Casamento do Noivo & Noiva</h2><p id="heroSub">Cerimónia civil e religiosa · 100 pessoas · Maputo/Matola</p></div><div class="date"><span id="heroDate">02 de Julho de 2027</span><small id="countdown">A preparar o grande dia</small></div></section>
+<section class="stats"><div class="stat"><label>Orçamento definido</label><strong id="sBudget">250.000 MT</strong><small>Meta total</small></div><div class="stat"><label>Dinheiro juntado</label><strong id="sSaved" class="green">0 MT</strong><small>Contribuições registadas</small></div><div class="stat"><label>Falta juntar</label><strong id="sNeed" class="gold">250.000 MT</strong><small>Meta menos poupança</small></div><div class="stat"><label>Despesas pagas</label><strong id="sPaid">0 MT</strong><small id="sCommitted">0 MT comprometidos</small></div><div class="stat"><label>Saldo disponível</label><strong id="sBalance">0 MT</strong><small>Juntado menos pago</small></div></section>
+<div class="panel"><div class="panelhead"><h3>Progresso da meta financeira</h3><strong id="progressText">0%</strong></div><div class="progress"><span id="progressBar"></span></div><div class="tiny muted" id="progressNote" style="margin-top:7px">Regista as contribuições para acompanhar o progresso.</div></div>
+<nav class="tabs"><button class="tab active" data-tab="dashboard">Visão geral</button><button class="tab" data-tab="expenses">Orçamento e despesas</button><button class="tab" data-tab="savings">Poupanças</button><button class="tab" data-tab="vendors">Fornecedores</button><button class="tab" data-tab="guests">Convidados</button><button class="tab" data-tab="tasks">Tarefas</button><button class="tab" data-tab="gifts">Presentes</button><button class="tab" data-tab="settings">Configurações</button></nav>
+<section class="view active" id="view-dashboard"><div class="grid2"><div><div class="panel"><div class="panelhead"><h3>Orçamento por categoria</h3><button class="btn" onclick="showTab('expenses')">Ver detalhes</button></div><div id="categorySummary"></div></div><div class="panel"><div class="panelhead"><h3>Próximas tarefas</h3><button class="btn" onclick="showTab('tasks')">Ver todas</button></div><div id="upcomingTasks"></div></div><div class="panel"><div class="panelhead"><h3>Pagamentos próximos</h3><button class="btn" onclick="showTab('expenses')">Ver despesas</button></div><div id="upcomingPayments"></div></div></div><div><div class="panel"><h3>Resumo financeiro</h3><div id="moneySummary" style="margin-top:9px"></div></div><div class="panel"><div class="panelhead"><h3>Contribuições por pessoa</h3><button class="btn" onclick="showTab('savings')">Detalhes</button></div><div id="contributorSummary"></div></div><div class="panel"><div class="panelhead"><h3>Dados do casamento</h3><button class="btn" onclick="showTab('settings')">Editar</button></div><div id="weddingSummary"></div></div></div></div></section>
+<section class="view" id="view-expenses"><div class="panel"><div class="panelhead"><div><h3>Orçamento, necessidades e pagamentos</h3><div class="tiny muted">Cada item pode ter quantidade, preço, fornecedor, prazo e vários pagamentos.</div></div><button class="btn primary" onclick="openExpense()">+ Nova necessidade</button></div><div class="tablewrap"><table><thead><tr><th>Necessidade</th><th>Categoria</th><th>Qtd.</th><th>Previsto</th><th>Pago</th><th>Por pagar</th><th>Prazo</th><th>Estado</th><th></th></tr></thead><tbody id="expenseRows"></tbody></table></div><div class="summary"><strong>Total previsto</strong><strong id="expenseTotal">0 MT</strong></div><div class="summary"><strong>Total pago</strong><strong id="expensePaid">0 MT</strong></div><div class="summary"><strong>Total por pagar</strong><strong id="expenseDue">0 MT</strong></div></div><div class="panel"><h3>Histórico de pagamentos</h3><div class="tablewrap"><table><thead><tr><th>Data</th><th>Necessidade</th><th>Descrição</th><th>Valor</th><th></th></tr></thead><tbody id="paymentRows"></tbody></table></div></div></section>
+<section class="view" id="view-savings"><div class="grid2"><div class="panel"><div class="panelhead"><h3>Entradas e poupanças</h3><button class="btn primary" onclick="openSaving()">+ Registar entrada</button></div><div class="tablewrap"><table><thead><tr><th>Data</th><th>Origem</th><th>Descrição</th><th>Valor</th><th></th></tr></thead><tbody id="savingRows"></tbody></table></div></div><div class="panel"><h3>Contribuições por origem</h3><div id="savingBreakdown" style="margin-top:9px"></div><div class="notice" style="margin-top:12px">Regista apenas dinheiro efectivamente recebido e reservado para o casamento. Não confundas promessas com poupanças disponíveis.</div></div></div></section>
+<section class="view" id="view-vendors"><div class="panel"><div class="panelhead"><div><h3>Fornecedores e contratos</h3><div class="tiny muted">Contactos, serviços, valores acordados e estado de contratação.</div></div><button class="btn primary" onclick="openVendor()">+ Fornecedor</button></div><div class="tablewrap"><table><thead><tr><th>Fornecedor</th><th>Serviço</th><th>Contacto</th><th>Valor acordado</th><th>Estado</th><th>Notas</th><th></th></tr></thead><tbody id="vendorRows"></tbody></table></div></div></section>
+<section class="view" id="view-guests"><div class="panel"><div class="panelhead"><div><h3>Lista de convidados</h3><div class="tiny muted">Meta de pessoas definida nas configurações.</div></div><button class="btn primary" onclick="openGuest()">+ Convidado</button></div><div class="grid3" style="margin-bottom:12px"><div class="stat"><label>Registados</label><strong id="guestCount">0</strong></div><div class="stat"><label>Confirmados</label><strong id="guestYes" class="green">0</strong></div><div class="stat"><label>Pendentes</label><strong id="guestPending" class="gold">0</strong></div></div><div class="tablewrap"><table><thead><tr><th>Nome</th><th>Grupo</th><th>Contacto</th><th>Adultos</th><th>Crianças</th><th>Confirmação</th><th></th></tr></thead><tbody id="guestRows"></tbody></table></div></div></section>
+<section class="view" id="view-tasks"><div class="panel"><div class="panelhead"><div><h3>Lista de tarefas</h3><div class="tiny muted">Atribui responsáveis e prazos para não deixar nada para a última hora.</div></div><button class="btn primary" onclick="openTask()">+ Nova tarefa</button></div><div id="taskList"></div></div></section>
+<section class="view" id="view-gifts"><div class="panel"><div class="panelhead"><div><h3>Presentes e ofertas</h3><div class="tiny muted">Regista ofertas recebidas em dinheiro ou bens. Não são contabilizadas automaticamente como poupança.</div></div><button class="btn primary" onclick="openGift()">+ Registar presente</button></div><div class="tablewrap"><table><thead><tr><th>Data</th><th>De</th><th>Presente</th><th>Tipo</th><th>Valor estimado</th><th>Notas</th><th></th></tr></thead><tbody id="giftRows"></tbody></table></div><div class="summary"><strong>Total estimado de ofertas em dinheiro/bens</strong><strong id="giftTotal">0 MT</strong></div></div></section>
+<section class="view" id="view-settings"><div class="grid2"><div class="panel"><h3>Dados do casamento</h3><div class="formgrid" style="margin-top:12px"><div class="field"><label>Nome do noivo</label><input id="groom"></div><div class="field"><label>Nome da noiva</label><input id="bride"></div><div class="field"><label>Data do casamento</label><input id="date" type="date"></div><div class="field"><label>Número previsto de pessoas (incluindo noivos)</label><input id="people" type="number" min="2"></div><div class="field"><label>Orçamento total (MT)</label><input id="budget" type="number" min="0" step="0.01"></div><div class="field"><label>Localidade</label><input id="location"></div><div class="field full"><label>Notas gerais</label><textarea id="notes"></textarea></div></div><div class="modalfoot"><button class="btn primary" onclick="saveSettings()">Guardar dados</button></div></div><div><div class="panel"><h3>Sincronização entre noivo e noiva</h3><p class="tiny muted">Opcional: configura Firebase para os dois utilizarem a mesma base de dados em telemóveis diferentes.</p><div class="notice">A sincronização na nuvem exige um projecto Firebase, Firestore e contas de autenticação. Sem esta configuração, a aplicação funciona localmente neste navegador.</div><div class="formgrid" style="margin-top:12px"><div class="field full"><label>Firebase API Key</label><input id="fbApiKey" placeholder="AIza..."></div><div class="field"><label>Auth Domain</label><input id="fbAuthDomain" placeholder="project.firebaseapp.com"></div><div class="field"><label>Project ID</label><input id="fbProjectId"></div><div class="field"><label>App ID</label><input id="fbAppId"></div><div class="field"><label>Código partilhado do casamento</label><input id="fbRoom" placeholder="casamento-langa-2027"></div><div class="field"><label>Email da conta</label><input id="fbEmail" type="email"></div><div class="field"><label>Palavra-passe</label><input id="fbPassword" type="password" autocomplete="current-password"></div></div><div class="modalfoot" style="flex-wrap:wrap"><button class="btn soft" onclick="saveFirebaseConfig()">Guardar configuração</button><button class="btn primary" onclick="connectCloud()">Entrar e sincronizar</button><button class="btn" onclick="disconnectCloud()">Desligar</button></div><p id="cloudMessage" class="tiny muted"></p></div><div class="panel"><h3>Dados e segurança</h3><p class="tiny muted">Os dados locais ficam neste navegador. Exporta cópias de segurança regularmente. Para partilhar, ambos devem usar o mesmo projecto Firebase, código de casamento e contas autorizadas nas regras do Firestore.</p><button class="btn danger" onclick="resetData()">Repor dados de exemplo</button></div></div></div></section>
+<div class="footer">Wedding Planner 2.0 · Valores em Meticais (MT) · Os dados são editáveis e exportáveis.</div></div>
+<div class="modalback" id="modalBack" onclick="if(event.target===this)closeModal()"><div class="modal"><h3 id="modalTitle">Registo</h3><div id="modalBody"></div></div></div>
+<script>
+const KEY='weddingPlannerV2';const defaults={settings:{groom:'Noivo',bride:'Noiva',date:'2027-07-02',people:100,budget:250000,location:'Maputo / Matola',notes:'Casamento civil e religioso'},expenses:[
+['Processo e casamento civil','Civil',1,6000],['Cerimónia religiosa','Religioso',1,5000],['Aluguer de sala e mobiliário','Espaço',1,72500],['Ingredientes para alimentação','Alimentação',1,42000],['Apoio de cozinha e serviço','Alimentação',1,8000],['Bebidas e gelo','Bebidas',1,12000],['Decoração simples','Decoração',1,12000],['Bolo de casamento','Bolo',1,7000],['Fotografia e vídeo','Serviços',1,20000],['DJ e som','Serviços',1,8000],['Mestre de cerimónias','Serviços',1,4000],['Vestuário dos noivos','Noivos',1,25000],['Alianças','Noivos',1,8000],['Transporte','Transporte',1,6000],['Convites e impressões','Papelaria',1,2000],['Fundo de emergência','Reserva',1,12500]
+].map((x,i)=>({id:uid(),name:x[0],category:x[1],qty:x[2],planned:x[3],paid:0,due:'',vendorId:'',notes:'',payments:[]})),savings:[],tasks:[
+['Confirmar documentos na Conservatória','2026-12-10','Noivo'],['Confirmar requisitos e data com a igreja','2026-12-15','Noiva e noivo'],['Visitar e reservar a sala','2027-01-10','Noivo'],['Escolher fotógrafo e DJ','2027-01-20','Noivo e noiva'],['Definir lista final de convidados','2027-03-01','Ambos'],['Comprar ou encomendar alianças','2027-03-15','Ambos'],['Confirmar menu e equipa de cozinha','2027-05-01','Família'],['Enviar convites','2027-05-15','Ambos'],['Confirmar presenças','2027-06-15','Ambos'],['Liquidar pagamentos e confirmar fornecedores','2027-06-25','Noivo e noiva']
+].map(x=>({id:uid(),title:x[0],date:x[1],owner:x[2],notes:'',done:false})),guests:[],vendors:[],gifts:[],firebase:{apiKey:'',authDomain:'',projectId:'',appId:'',room:'casamento-langa-2027'}};
+function uid(){return Math.random().toString(36).slice(2,10)+Date.now().toString(36).slice(-4)}function clone(x){return JSON.parse(JSON.stringify(x))}function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function money(n){return (Number(n)||0).toLocaleString('pt-PT',{maximumFractionDigits:2})+' MT'}function dateFmt(s){if(!s)return '—';let d=new Date(s+'T12:00:00');return isNaN(d)?s:d.toLocaleDateString('pt-PT')}let data;
+try{data=JSON.parse(localStorage.getItem(KEY))||clone(defaults)}catch(e){data=clone(defaults)}function normalize(){for(let k of ['expenses','savings','tasks','guests','vendors','gifts'])if(!Array.isArray(data[k]))data[k]=[];data.settings={...defaults.settings,...data.settings};data.firebase={...defaults.firebase,...data.firebase};data.expenses.forEach(e=>{if(!Array.isArray(e.payments))e.payments=[];if(e.paid&&!e.payments.length)e.payments.push({id:uid(),date:'',amount:Number(e.paid),description:'Pagamento inicial'});e.paid=e.payments.reduce((a,p)=>a+Number(p.amount||0),0)});}normalize();
+function persist(){normalize();localStorage.setItem(KEY,JSON.stringify(data));render();if(cloudReady&&!applyingRemote)queueCloudSave()}function planned(){return data.expenses.reduce((a,e)=>a+Number(e.planned||0)*Number(e.qty||1),0)}function paid(){return data.expenses.reduce((a,e)=>a+e.payments.reduce((b,p)=>b+Number(p.amount||0),0),0)}function saved(){return data.savings.reduce((a,s)=>a+Number(s.amount||0),0)}function totalGifts(){return data.gifts.reduce((a,g)=>a+Number(g.value||0),0)}
+function showTab(t){document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id==='view-'+t))}document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+function render(){let s=data.settings,goal=Number(s.budget)||0,sv=saved(),pct=goal?Math.min(100,sv/goal*100):0;document.getElementById('weddingTitle').textContent=`Casamento de ${s.groom||'Noivo'} & ${s.bride||'Noiva'}`;document.getElementById('heroSub').textContent=`Cerimónia civil e religiosa · ${s.people} pessoas · ${s.location||''}`;document.getElementById('heroDate').textContent=dateFmt(s.date);let days=Math.ceil((new Date((s.date||'2027-07-02')+'T00:00:00')-new Date())/86400000);document.getElementById('countdown').textContent=days>=0?`${days} dias para o casamento`:`Casamento realizado há ${Math.abs(days)} dias`;document.getElementById('sBudget').textContent=money(goal);document.getElementById('sSaved').textContent=money(sv);document.getElementById('sNeed').textContent=money(Math.max(0,goal-sv));document.getElementById('sPaid').textContent=money(paid());document.getElementById('sCommitted').textContent=money(planned())+' previstos';document.getElementById('sBalance').textContent=money(sv-paid());document.getElementById('progressText').textContent=pct.toFixed(1)+'%';document.getElementById('progressBar').style.width=pct+'%';document.getElementById('progressNote').textContent=`Já juntaste ${money(sv)} de ${money(goal)}. Despesas pagas: ${money(paid())}.`;
+let cats={};data.expenses.forEach(e=>{let c=e.category||'Outros';cats[c]=(cats[c]||0)+Number(e.planned||0)*Number(e.qty||1)});let max=Math.max(1,...Object.values(cats));document.getElementById('categorySummary').innerHTML=Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="barrow"><span>${esc(k)}</span><div class="bar"><i style="width:${v/max*100}%"></i></div><strong>${money(v)}</strong></div>`).join('')||'<div class="empty">Sem despesas registadas.</div>';
+document.getElementById('moneySummary').innerHTML=[['Orçamento definido',money(goal)],['Necessidades previstas',money(planned())],['Total poupado',money(sv)],['Despesas pagas',money(paid())],['Dívida a fornecedores',money(Math.max(0,planned()-paid()))],['Saldo após pagamentos',money(sv-paid())]].map(([a,b])=>`<div class="summary"><span>${a}</span><strong>${b}</strong></div>`).join('');let by={};data.savings.forEach(x=>by[x.source]=(by[x.source]||0)+Number(x.amount));document.getElementById('contributorSummary').innerHTML=Object.entries(by).map(([k,v])=>`<div class="summary"><span>${esc(k)}</span><strong>${money(v)}</strong></div>`).join('')||'<p class="muted tiny">Ainda não existem contribuições.</p>';document.getElementById('weddingSummary').innerHTML=[['Noivo',s.groom],['Noiva',s.bride],['Data',dateFmt(s.date)],['Pessoas',s.people],['Local',s.location],['Notas',s.notes]].map(([a,b])=>`<div class="summary"><span>${a}</span><strong>${esc(b||'—')}</strong></div>`).join('');
+renderExpenses();renderSavings();renderTasks();renderGuests();renderVendors();renderGifts();let up=data.tasks.filter(t=>!t.done).sort((a,b)=>(a.date||'').localeCompare(b.date||'')).slice(0,5);document.getElementById('upcomingTasks').innerHTML=up.map(t=>`<div class="summary"><span>${esc(t.title)}<small class="muted" style="display:block">${dateFmt(t.date)} · ${esc(t.owner||'')}</small></span><span class="tag pending">Pendente</span></div>`).join('')||'<p class="muted tiny">Nenhuma tarefa pendente.</p>';let pays=data.expenses.filter(e=>e.due&&e.planned*e.qty>e.paid).sort((a,b)=>a.due.localeCompare(b.due)).slice(0,5);document.getElementById('upcomingPayments').innerHTML=pays.map(e=>`<div class="summary"><span>${esc(e.name)}<small class="muted" style="display:block">Prazo: ${dateFmt(e.due)}</small></span><strong>${money(e.planned*e.qty-e.paid)}</strong></div>`).join('')||'<p class="muted tiny">Sem pagamentos com prazo definido.</p>';
+}
+function renderExpenses(){document.getElementById('expenseRows').innerHTML=data.expenses.map(e=>{let p=e.payments.reduce((a,x)=>a+Number(x.amount||0),0),due=Number(e.planned||0)*Number(e.qty||1)-p;return `<tr><td><strong>${esc(e.name)}</strong><div class="tiny muted">${esc(e.notes||'')}</div></td><td>${esc(e.category)}</td><td>${e.qty}</td><td>${money(e.planned*e.qty)}</td><td>${money(p)}</td><td>${money(Math.max(0,due))}</td><td>${dateFmt(e.due)}</td><td><span class="tag ${due<=0?'':'pending'}">${due<=0?'Pago':'Pendente'}</span></td><td><div class="rowactions"><button class="iconbtn" title="Registar pagamento" onclick="openPayment('${e.id}')">＋</button><button class="iconbtn" onclick="openExpense('${e.id}')">✎</button><button class="iconbtn" onclick="removeItem('expenses','${e.id}')">×</button></div></td></tr>`}).join('')||'<tr><td colspan="9" class="empty">Ainda não existem necessidades.</td></tr>';document.getElementById('expenseTotal').textContent=money(planned());document.getElementById('expensePaid').textContent=money(paid());document.getElementById('expenseDue').textContent=money(Math.max(0,planned()-paid()));let all=[];data.expenses.forEach(e=>e.payments.forEach(p=>all.push({...p,expense:e.name,eid:e.id})));document.getElementById('paymentRows').innerHTML=all.sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(p=>`<tr><td>${dateFmt(p.date)}</td><td>${esc(p.expense)}</td><td>${esc(p.description||'')}</td><td><strong>${money(p.amount)}</strong></td><td><button class="iconbtn" onclick="removePayment('${p.eid}','${p.id}')">×</button></td></tr>`).join('')||'<tr><td colspan="5" class="empty">Nenhum pagamento registado.</td></tr>'}
+function renderSavings(){document.getElementById('savingRows').innerHTML=data.savings.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(x=>`<tr><td>${dateFmt(x.date)}</td><td>${esc(x.source)}</td><td>${esc(x.description||'')}</td><td><strong>${money(x.amount)}</strong></td><td><button class="iconbtn" onclick="removeItem('savings','${x.id}')">×</button></td></tr>`).join('')||'<tr><td colspan="5" class="empty">Ainda não registaste poupanças.</td></tr>';let by={};data.savings.forEach(x=>by[x.source]=(by[x.source]||0)+Number(x.amount));document.getElementById('savingBreakdown').innerHTML=Object.entries(by).map(([k,v])=>`<div class="summary"><span>${esc(k)}</span><strong>${money(v)}</strong></div>`).join('')||'<p class="muted tiny">As contribuições aparecerão aqui.</p>'}
+function renderTasks(){document.getElementById('taskList').innerHTML=data.tasks.slice().sort((a,b)=>(a.date||'').localeCompare(b.date||'')).map(t=>`<div class="summary"><label class="checkline"><input type="checkbox" ${t.done?'checked':''} onchange="toggleTask('${t.id}',this.checked)"><span style="${t.done?'text-decoration:line-through;color:#89958d':''}">${esc(t.title)}<small class="muted" style="display:block">Prazo: ${dateFmt(t.date)} · Responsável: ${esc(t.owner||'—')} ${t.notes?'· '+esc(t.notes):''}</small></span></label><div class="rowactions"><button class="iconbtn" onclick="openTask('${t.id}')">✎</button><button class="iconbtn" onclick="removeItem('tasks','${t.id}')">×</button></div></div>`).join('')||'<div class="empty">Sem tarefas.</div>'}
+function renderGuests(){let yes=data.guests.filter(g=>g.status==='Confirmado').length,pending=data.guests.filter(g=>g.status==='Pendente').length;document.getElementById('guestRows').innerHTML=data.guests.map(g=>`<tr><td><strong>${esc(g.name)}</strong></td><td>${esc(g.group||'')}</td><td>${esc(g.phone||'—')}</td><td>${g.adults||1}</td><td>${g.children||0}</td><td><span class="tag ${g.status==='Confirmado'?'':g.status==='Não vai'?'late':'pending'}">${esc(g.status)}</span></td><td><div class="rowactions"><button class="iconbtn" onclick="openGuest('${g.id}')">✎</button><button class="iconbtn" onclick="removeItem('guests','${g.id}')">×</button></div></td></tr>`).join('')||'<tr><td colspan="7" class="empty">Ainda não adicionaste convidados.</td></tr>';document.getElementById('guestCount').textContent=data.guests.reduce((a,g)=>a+Number(g.adults||1)+Number(g.children||0),0);document.getElementById('guestYes').textContent=data.guests.filter(g=>g.status==='Confirmado').reduce((a,g)=>a+Number(g.adults||1)+Number(g.children||0),0);document.getElementById('guestPending').textContent=pending}
+function renderVendors(){document.getElementById('vendorRows').innerHTML=data.vendors.map(v=>`<tr><td><strong>${esc(v.name)}</strong></td><td>${esc(v.service||'')}</td><td>${esc(v.phone||'')}</td><td>${money(v.value)}</td><td><span class="tag ${v.status==='Contratado'?'':'pending'}">${esc(v.status)}</span></td><td>${esc(v.notes||'')}</td><td><div class="rowactions"><button class="iconbtn" onclick="openVendor('${v.id}')">✎</button><button class="iconbtn" onclick="removeItem('vendors','${v.id}')">×</button></div></td></tr>`).join('')||'<tr><td colspan="7" class="empty">Nenhum fornecedor registado.</td></tr>'}
+function renderGifts(){document.getElementById('giftRows').innerHTML=data.gifts.map(g=>`<tr><td>${dateFmt(g.date)}</td><td>${esc(g.from)}</td><td>${esc(g.name)}</td><td>${esc(g.type)}</td><td>${money(g.value)}</td><td>${esc(g.notes||'')}</td><td><button class="iconbtn" onclick="removeItem('gifts','${g.id}')">×</button></td></tr>`).join('')||'<tr><td colspan="7" class="empty">Nenhum presente registado.</td></tr>';document.getElementById('giftTotal').textContent=money(totalGifts())}
+function modal(title,html){document.getElementById('modalTitle').textContent=title;document.getElementById('modalBody').innerHTML=html;document.getElementById('modalBack').classList.add('show')}function closeModal(){document.getElementById('modalBack').classList.remove('show')}function foot(){return '<div class="modalfoot"><button type="button" class="btn" onclick="closeModal()">Cancelar</button><button class="btn primary">Guardar</button></div>'}
+function openExpense(key){let e=data.expenses.find(x=>x.id===key)||{id:'',name:'',category:'Outros',qty:1,planned:0,due:'',vendorId:'',notes:''};modal(key?'Editar necessidade':'Adicionar necessidade',`<form onsubmit="saveExpense(event,'${key||''}')"><div class="formgrid"><div class="field full"><label>Nome *</label><input name="name" required value="${esc(e.name)}"></div><div class="field"><label>Categoria</label><input name="category" list="catlist" value="${esc(e.category)}"><datalist id="catlist">${['Espaço','Alimentação','Bebidas','Decoração','Noivos','Serviços','Civil','Religioso','Transporte','Reserva','Papelaria','Bolo','Outros'].map(x=>`<option>${x}</option>`).join('')}</datalist></div><div class="field"><label>Quantidade</label><input name="qty" type="number" min="0.01" step="any" value="${e.qty}"></div><div class="field"><label>Preço unitário previsto (MT)</label><input name="planned" type="number" min="0" step="any" value="${e.planned}"></div><div class="field"><label>Prazo de pagamento</label><input name="due" type="date" value="${e.due||''}"></div><div class="field"><label>Fornecedor</label><select name="vendorId"><option value="">— Não definido —</option>${data.vendors.map(v=>`<option value="${v.id}" ${v.id===e.vendorId?'selected':''}>${esc(v.name)}</option>`).join('')}</select></div><div class="field full"><label>Detalhes / notas</label><textarea name="notes">${esc(e.notes)}</textarea></div></div>${foot()}</form>`)}function saveExpense(ev,key){ev.preventDefault();let f=new FormData(ev.target),old=data.expenses.find(x=>x.id===key),o={id:key||uid(),name:f.get('name'),category:f.get('category')||'Outros',qty:Number(f.get('qty'))||1,planned:Number(f.get('planned'))||0,due:f.get('due'),vendorId:f.get('vendorId'),notes:f.get('notes'),payments:old?.payments||[]};let i=data.expenses.findIndex(x=>x.id===key);if(i>=0)data.expenses[i]=o;else data.expenses.push(o);closeModal();persist()}
+function openPayment(eid){let e=data.expenses.find(x=>x.id===eid);modal('Registar pagamento',`<form onsubmit="savePayment(event,'${eid}')"><p class="tiny muted">${esc(e.name)} · Total previsto ${money(e.planned*e.qty)} · Já pago ${money(e.paid)}</p><div class="formgrid"><div class="field"><label>Data</label><input name="date" type="date" value="${new Date().toISOString().slice(0,10)}"></div><div class="field"><label>Valor pago (MT) *</label><input name="amount" type="number" min="0.01" step="any" required></div><div class="field full"><label>Descrição / referência</label><input name="description" placeholder="Ex.: Sinal de 50%"></div></div>${foot()}</form>`)}function savePayment(ev,eid){ev.preventDefault();let f=new FormData(ev.target),e=data.expenses.find(x=>x.id===eid);e.payments.push({id:uid(),date:f.get('date'),amount:Number(f.get('amount')),description:f.get('description')});closeModal();persist()}function removePayment(eid,pid){if(!confirm('Eliminar este pagamento?'))return;let e=data.expenses.find(x=>x.id===eid);e.payments=e.payments.filter(p=>p.id!==pid);persist()}
+function openSaving(){modal('Registar contribuição / poupança',`<form onsubmit="saveSaving(event)"><div class="formgrid"><div class="field"><label>Data</label><input name="date" type="date" value="${new Date().toISOString().slice(0,10)}"></div><div class="field"><label>Origem</label><select name="source"><option>Noivo</option><option>Noiva</option><option>Família</option><option>Trabalho extra</option><option>Amigos</option><option>Outra fonte</option></select></div><div class="field"><label>Valor recebido (MT) *</label><input name="amount" type="number" min="0.01" step="any" required></div><div class="field"><label>Descrição</label><input name="description" placeholder="Ex.: Poupança mensal"></div></div>${foot()}</form>`)}function saveSaving(ev){ev.preventDefault();let f=new FormData(ev.target);data.savings.push({id:uid(),date:f.get('date'),source:f.get('source'),amount:Number(f.get('amount')),description:f.get('description')});closeModal();persist()}
+function openTask(key){let t=data.tasks.find(x=>x.id===key)||{id:'',title:'',date:'',owner:'',notes:'',done:false};modal(key?'Editar tarefa':'Nova tarefa',`<form onsubmit="saveTask(event,'${key||''}')"><div class="formgrid"><div class="field full"><label>Tarefa *</label><input name="title" required value="${esc(t.title)}"></div><div class="field"><label>Prazo</label><input name="date" type="date" value="${t.date||''}"></div><div class="field"><label>Responsável</label><input name="owner" value="${esc(t.owner)}" placeholder="Noivo, noiva, ambos..."></div><div class="field full"><label>Notas</label><textarea name="notes">${esc(t.notes)}</textarea></div></div>${foot()}</form>`)}function saveTask(ev,key){ev.preventDefault();let f=new FormData(ev.target),old=data.tasks.find(x=>x.id===key),o={id:key||uid(),title:f.get('title'),date:f.get('date'),owner:f.get('owner'),notes:f.get('notes'),done:old?.done||false},i=data.tasks.findIndex(x=>x.id===key);if(i>=0)data.tasks[i]=o;else data.tasks.push(o);closeModal();persist()}function toggleTask(k,v){let t=data.tasks.find(x=>x.id===k);if(t)t.done=v;persist()}
+function openGuest(key){let g=data.guests.find(x=>x.id===key)||{id:'',name:'',group:'Família',phone:'',adults:1,children:0,status:'Pendente'};modal(key?'Editar convidado':'Adicionar convidado',`<form onsubmit="saveGuest(event,'${key||''}')"><div class="formgrid"><div class="field full"><label>Nome / família *</label><input name="name" required value="${esc(g.name)}"></div><div class="field"><label>Grupo</label><select name="group">${['Família','Amigos','Trabalho','Igreja','Outros'].map(x=>`<option ${g.group===x?'selected':''}>${x}</option>`).join('')}</select></div><div class="field"><label>Contacto</label><input name="phone" value="${esc(g.phone)}"></div><div class="field"><label>Número de adultos</label><input name="adults" type="number" min="0" value="${g.adults}"></div><div class="field"><label>Número de crianças</label><input name="children" type="number" min="0" value="${g.children}"></div><div class="field"><label>Confirmação</label><select name="status">${['Pendente','Confirmado','Não vai'].map(x=>`<option ${g.status===x?'selected':''}>${x}</option>`).join('')}</select></div></div>${foot()}</form>`)}function saveGuest(ev,key){ev.preventDefault();let f=new FormData(ev.target),o={id:key||uid(),name:f.get('name'),group:f.get('group'),phone:f.get('phone'),adults:Number(f.get('adults'))||0,children:Number(f.get('children'))||0,status:f.get('status')},i=data.guests.findIndex(x=>x.id===key);if(i>=0)data.guests[i]=o;else data.guests.push(o);closeModal();persist()}
+function openVendor(key){let v=data.vendors.find(x=>x.id===key)||{id:'',name:'',service:'',phone:'',value:0,status:'A contactar',notes:''};modal(key?'Editar fornecedor':'Adicionar fornecedor',`<form onsubmit="saveVendor(event,'${key||''}')"><div class="formgrid"><div class="field"><label>Nome / empresa *</label><input name="name" required value="${esc(v.name)}"></div><div class="field"><label>Serviço</label><input name="service" value="${esc(v.service)}"></div><div class="field"><label>Telefone</label><input name="phone" value="${esc(v.phone)}"></div><div class="field"><label>Valor acordado (MT)</label><input name="value" type="number" min="0" step="any" value="${v.value}"></div><div class="field"><label>Estado</label><select name="status">${['A contactar','Orçamento recebido','Negociação','Contratado','Cancelado'].map(x=>`<option ${v.status===x?'selected':''}>${x}</option>`).join('')}</select></div><div class="field full"><label>Notas / condições / sinal</label><textarea name="notes">${esc(v.notes)}</textarea></div></div>${foot()}</form>`)}function saveVendor(ev,key){ev.preventDefault();let f=new FormData(ev.target),o={id:key||uid(),name:f.get('name'),service:f.get('service'),phone:f.get('phone'),value:Number(f.get('value'))||0,status:f.get('status'),notes:f.get('notes')},i=data.vendors.findIndex(x=>x.id===key);if(i>=0)data.vendors[i]=o;else data.vendors.push(o);closeModal();persist()}
+function openGift(){modal('Registar presente ou oferta',`<form onsubmit="saveGift(event)"><div class="formgrid"><div class="field"><label>Data</label><input name="date" type="date" value="${new Date().toISOString().slice(0,10)}"></div><div class="field"><label>Oferecido por</label><input name="from" placeholder="Nome"></div><div class="field"><label>Presente *</label><input name="name" required placeholder="Ex.: Envelope, electrodoméstico"></div><div class="field"><label>Tipo</label><select name="type"><option>Dinheiro</option><option>Bem material</option><option>Serviço</option><option>Outro</option></select></div><div class="field"><label>Valor estimado (MT)</label><input name="value" type="number" min="0" step="any"></div><div class="field full"><label>Notas</label><textarea name="notes"></textarea></div></div>${foot()}</form>`)}function saveGift(ev){ev.preventDefault();let f=new FormData(ev.target);data.gifts.push({id:uid(),date:f.get('date'),from:f.get('from'),name:f.get('name'),type:f.get('type'),value:Number(f.get('value'))||0,notes:f.get('notes')});closeModal();persist()}
+function removeItem(type,key){if(!confirm('Tens a certeza de que pretendes eliminar este registo?'))return;data[type]=data[type].filter(x=>x.id!==key);persist()}
+function saveSettings(){let s=data.settings;s.groom=document.getElementById('groom').value;s.bride=document.getElementById('bride').value;s.date=document.getElementById('date').value;s.people=Math.max(2,Number(document.getElementById('people').value)||100);s.budget=Math.max(0,Number(document.getElementById('budget').value)||0);s.location=document.getElementById('location').value;s.notes=document.getElementById('notes').value;persist();alert('Dados do casamento guardados.')}function loadSettings(){let s=data.settings;for(let [i,k] of [['groom','groom'],['bride','bride'],['date','date'],['people','people'],['budget','budget'],['location','location'],['notes','notes']])document.getElementById(i).value=s[k]??'';for(let k of ['apiKey','authDomain','projectId','appId','room'])document.getElementById('fb'+k[0].toUpperCase()+k.slice(1)).value=data.firebase[k]||''}
+function exportData(){let blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='wedding-planner-backup-'+new Date().toISOString().slice(0,10)+'.json';a.click();URL.revokeObjectURL(a.href)}function importData(ev){let f=ev.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result);if(!x.settings||!Array.isArray(x.expenses)||!Array.isArray(x.savings))throw Error();data=x;normalize();persist();loadSettings();alert('Cópia importada com sucesso.')}catch(e){alert('Ficheiro inválido ou incompatível.')}};r.readAsText(f);ev.target.value=''}function resetData(){if(!confirm('Isto substituirá todos os registos actuais pelos dados iniciais. Exporta primeiro uma cópia. Continuar?'))return;data=clone(defaults);persist();loadSettings()}
+let cloudReady=false,applyingRemote=false,cloudTimer=null,fbApp,fbAuth,fbDb,fbUnsub;function cloudMsg(t){document.getElementById('cloudMessage').textContent=t}function saveFirebaseConfig(){let f=data.firebase;f.apiKey=document.getElementById('fbApiKey').value.trim();f.authDomain=document.getElementById('fbAuthDomain').value.trim();f.projectId=document.getElementById('fbProjectId').value.trim();f.appId=document.getElementById('fbAppId').value.trim();f.room=document.getElementById('fbRoom').value.trim()||'casamento-langa-2027';localStorage.setItem(KEY,JSON.stringify(data));cloudMsg('Configuração guardada neste navegador.');}async function connectCloud(){saveFirebaseConfig();let f=data.firebase,email=document.getElementById('fbEmail').value.trim(),password=document.getElementById('fbPassword').value;if(!f.apiKey||!f.authDomain||!f.projectId||!f.appId||!email||!password){cloudMsg('Preenche os dados Firebase, email e palavra-passe.');return}try{cloudMsg('A ligar ao Firebase...');let appmod=await import('https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js'),authmod=await import('https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js'),dbmod=await import('https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js');fbApp=appmod.initializeApp({apiKey:f.apiKey,authDomain:f.authDomain,projectId:f.projectId,appId:f.appId},'weddingPlannerV2');fbAuth=authmod.getAuth(fbApp);fbDb=dbmod.getFirestore(fbApp);try{await authmod.signInWithEmailAndPassword(fbAuth,email,password)}catch(err){if(err.code==='auth/user-not-found')throw new Error('Conta não existe. Cria primeiro a conta no Firebase Authentication.');throw err}let ref=dbmod.doc(fbDb,'weddings',f.room);cloudReady=true;if(fbUnsub)fbUnsub();fbUnsub=dbmod.onSnapshot(ref,snap=>{if(snap.exists()){let remote=snap.data().payload;if(remote&&remote.settings){applyingRemote=true;data=remote;normalize();localStorage.setItem(KEY,JSON.stringify(data));loadSettings();render();applyingRemote=false;cloudMsg('Sincronizado com a nuvem.')}else queueCloudSave()}else queueCloudSave()});document.getElementById('cloudStatus').textContent='Nuvem ligada';document.getElementById('cloudStatus').classList.add('on');cloudMsg('Ligação activa. As alterações serão sincronizadas automaticamente.')}catch(e){cloudReady=false;cloudMsg('Falha na ligação: '+(e.message||e));alert('Não foi possível ligar. Confirma Firebase e as regras do Firestore.')}}function queueCloudSave(){if(!cloudReady||applyingRemote)return;clearTimeout(cloudTimer);cloudTimer=setTimeout(async()=>{try{let m=await import('https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js');await m.setDoc(m.doc(fbDb,'weddings',data.firebase.room),{payload:data,updatedAt:new Date().toISOString(),updatedBy:fbAuth.currentUser?.email||''})}catch(e){cloudMsg('Erro ao sincronizar: '+e.message)}},900)}function disconnectCloud(){cloudReady=false;if(fbUnsub)fbUnsub();document.getElementById('cloudStatus').textContent='Modo local';document.getElementById('cloudStatus').classList.remove('on');cloudMsg('Sincronização desligada. Os dados locais continuam disponíveis.')}
+loadSettings();render();
+</script></body></html>
